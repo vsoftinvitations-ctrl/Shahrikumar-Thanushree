@@ -496,7 +496,7 @@ body.preloader-active #app>*:not(#wedding-preloader) {
 }
 
 .preloader-gate-bottom {
-  margin-top: clamp(28px, 5.5vh, 48px);
+  margin-top: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -516,7 +516,7 @@ body.preloader-active #app>*:not(#wedding-preloader) {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1.5px solid #1a140e;
+  border: 1.5px solid #b8985a;
   border-radius: 9999px;
   color: #1a140e;
   font-family: var(--sans);
@@ -536,8 +536,8 @@ body.preloader-active #app>*:not(#wedding-preloader) {
 .preloader-open-pill-btn:hover {
   transform: scale(1.03);
   background: #ffffff;
-  border-color: #000000;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+  border-color: #d4af37;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.22), 0 0 16px rgba(218, 165, 32, 0.45);
 }
 
 .preloader-open-pill-btn:active {
