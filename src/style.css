@@ -93,19 +93,19 @@ body.preloader-active #app>*:not(#wedding-preloader) {
   position: absolute;
   inset: 0;
   background: radial-gradient(ellipse at center,
-      rgba(0, 0, 0, 0.03) 0%,
-      rgba(0, 0, 0, 0.10) 60%,
-      rgba(8, 5, 3, 0.22) 100%);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
+      rgba(0, 0, 0, 0.08) 0%,
+      rgba(0, 0, 0, 0.18) 60%,
+      rgba(8, 5, 3, 0.35) 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   transition: backdrop-filter 0.8s cubic-bezier(0.22, 1, 0.36, 1),
               -webkit-backdrop-filter 0.8s cubic-bezier(0.22, 1, 0.36, 1),
               background 0.8s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .wedding-preloader.preloader-animating .preloader-overlay {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   background: radial-gradient(ellipse at center,
       rgba(14, 10, 7, 0.35) 0%,
       rgba(14, 10, 7, 0.55) 60%,
