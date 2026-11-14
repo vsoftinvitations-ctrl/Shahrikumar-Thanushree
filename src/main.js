@@ -35,9 +35,6 @@ if (app) {
       </div>
       <div class="wrap">
         <p class="label r">Together with their families</p>
-        <div class="event-date-badge r" style="margin-bottom:24px">
-          Invitation From: ${W.invitationFrom}
-        </div>
         <h2 class="intro-names r" aria-label="${W.groom} & ${W.bride}">
           <div class="script-line script-groom">
             <span class="script-text">${W.groom}</span>
@@ -105,9 +102,6 @@ if (app) {
       <p class="label r" style="margin-top:16px;margin-bottom:14px">Cordially Inviting You</p>
       <p class="body r" style="font-size:clamp(1.1rem,3.4vw,1.3rem);line-height:1.8;color:var(--ink)">
         ${W.specialMessage}
-      </p>
-      <p class="serif r" style="margin-top:20px;font-size:1.25rem;color:var(--gold)">
-        — ${W.invitationFrom} —
       </p>
       ${orn}
     </div></section>

@@ -29,7 +29,6 @@ export const W = {
     map: "https://share.google/t1sm9W3U2tRc1UwN4",
     additional: "Muhurtham: 9:00 AM to 9:45 AM. We warmly welcome you to celebrate this auspicious occasion with us."
   },
-  invitationFrom: "Gopal & Renukamma Family",
   specialMessage: "With the blessings of our parents and elders, we cordially invite you to join us in celebrating the wedding of Shashikumar G and Thanushree V. Your presence and blessings will make our special day even more memorable.",
   rsvp: {
     phone: "8073296129",
