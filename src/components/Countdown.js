@@ -2,12 +2,12 @@
  * ============================================================================
  * LUXURY WEDDING COUNTDOWN TIMER
  * ============================================================================
- * Accurate, elegant countdown timer ticking down to Arjun & Arsha's wedding
- * ceremony on 22 November 2026 at 6:00 AM IST.
+ * Accurate, elegant countdown timer ticking down to Shashikumar & Thanushree's
+ * wedding ceremony on 30 November 2026 at 9:00 AM IST.
  */
 
-// Target Wedding Muhurtham: 22 November 2026, 6:00 AM IST (+05:30)
-const WEDDING_TARGET_TIME = new Date('2026-11-22T06:00:00+05:30').getTime();
+// Target Wedding Muhurtham: 30 November 2026, 9:00 AM IST (+05:30)
+const WEDDING_TARGET_TIME = new Date('2026-11-30T09:00:00+05:30').getTime();
 
 export function renderCountdown() {
   return `

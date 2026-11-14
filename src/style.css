@@ -786,7 +786,7 @@ body.petals-active #rose-petals-canvas {
   }
 }
 
-/* Intro script names ampersand spacing - clears lowercase 'j' descender in Arjun */
+/* Intro script names ampersand spacing */
 .intro-names .script-amp {
   margin: clamp(20px, 4.8vw, 32px) 0 clamp(10px, 2.5vw, 18px);
   overflow: visible;

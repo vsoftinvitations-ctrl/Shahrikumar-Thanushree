@@ -1,9 +1,9 @@
 // ==========================================
 // CLIENT DETAILS — EDIT THESE 5 LINES:
 // ==========================================
-const NAME_1 = "Arjun";
-const NAME_2 = "Arsha";
-const WEDDING_DATE = "22 . NOVEMBER . 2026";
+const NAME_1 = "Shashikumar";
+const NAME_2 = "Thanushree";
+const WEDDING_DATE = "30 . NOVEMBER . 2026";
 const BG_IMAGE_URL = "/assets/preloder.png";
 const BG_MUSIC_URL = "/wedding.mp3";
 // ==========================================
@@ -96,7 +96,7 @@ export function renderPreloader(customConfig = {}) {
           <span class="preloader-tagline">WEDDING INVITATION</span>
         </div>
         <div class="preloader-script-container" id="preloader-script-box">
-          <!-- Line 1: First Name (Arjun) -->
+          <!-- Line 1: First Name (Shashikumar) -->
           <div class="script-line script-name-1">
             <span class="script-text">${name1}</span>
             <span class="calligraphy-pen-spark"></span>
@@ -105,7 +105,7 @@ export function renderPreloader(customConfig = {}) {
           <div class="script-line script-ampersand">
             <span class="script-text">&amp;</span>
           </div>
-          <!-- Line 3: Second Name (Arsha) -->
+          <!-- Line 3: Second Name (Thanushree) -->
           <div class="script-line script-name-2">
             <span class="script-text">${name2}</span>
             <span class="calligraphy-pen-spark"></span>

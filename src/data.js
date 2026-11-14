@@ -1,67 +1,76 @@
-// Central wedding data for Arjun & Arsha
+// Central wedding data for Shashikumar & Thanushree
 export const W = {
-      bride: "Arsha", groom: "Arjun", brideFirst: "Arsha", groomFirst: "Arjun", monogram: "A • A", footMono: "A & A",
-      short: "Arjun & Arsha",
-      date: { full: "22 November 2026", day: "Sunday", num: "22", month: "November 2026", dots: "22 • 11 • 2026", dotted: "22.11.2026" },
-      ceremony: {
-        venue: "Guruvayur Sree Krishna Temple",
-        muhurtham: "6:00 AM",
-        address: "East Nada, Guruvayur, Thrissur, Kerala – 680101.",
-        map: "https://www.google.com/maps/search/?api=1&query=Guruvayur+Sree+Krishna+Temple+Guruvayur+Kerala"
-      },
-      reception: {
-        venue: "KR Thekkedathu Mana",
-        time: "11:00 AM – 1:00 PM",
-        address: [
-          "KR Thekkedathu Mana,",
-          "Kadangod P.O., Erumapetty Via,",
-          "Thrissur, Kerala – 680584."
-        ],
-        map: "https://share.google/89qt5kDbmUhvB5mPj"
-      },
-      groomReception: {
-        venue: "Groom's Residence – 'Swaramanjari'",
-        date: "25 November 2026",
-        day: "Wednesday",
-        time: "4:00 PM to 9:00 PM",
-        address: [
-          "Near Karayi Mukku,",
-          "P.O. Eranholi, Thalassery."
-        ],
-        map: "https://www.google.com/maps/place/11%C2%B046'24.3%22N+75%C2%B030'59.6%22E/@11.77342,75.5139731,17z/data=!3m1!4b1!4m4!3m3!8m2!3d11.77342!4d75.516548?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D"
-      },
-      parents: {
-        bride: {
-          title: "Bride's Parents",
-          father: "Anilkumar R",
-          mother: "Jainy K S (Late)"
-        },
-        groom: {
-          title: "Groom's Parents",
-          father: "Yetheendran K",
-          mother: "Shylaja O P"
-        }
-      },
-      couple: {
-        groom: {
-          name: "Arjun",
-          relation: "S/O",
-          father: "Yetheendran K",
-          mother: "Shylaja O P",
-          sentence: "S/O Yetheendran K & Shylaja O P"
-        },
-        bride: {
-          name: "Arsha",
-          relation: "D/O",
-          father: "Anilkumar R",
-          mother: "Jainy K S (Late)",
-          sentence: "D/O Anilkumar R & Jainy K S (Late)"
-        }
-      },
-      tagline: "A celebration of love, family & togetherness",
-      quotes: ["Our love began as a story, and today we make a promise to turn it into forever.", "A beautiful marriage is not something you build, it is something you build together."],
-      invite: "We cordially invite your gracious presence and blessings on the auspicious occasion of the wedding ceremony of Arjun & Arsha."
-    };
+  bride: "Thanushree",
+  groom: "Shashikumar",
+  brideFull: "Thanushree V",
+  groomFull: "Shashikumar G",
+  brideFirst: "Thanushree",
+  groomFirst: "Shashikumar",
+  monogram: "S • T",
+  footMono: "S & T",
+  short: "Shashikumar & Thanushree",
+  date: {
+    full: "30 November 2026",
+    day: "Monday",
+    num: "30",
+    month: "November 2026",
+    dots: "30 • 11 • 2026",
+    dotted: "30.11.2026",
+    targetIso: "2026-11-30T09:00:00+05:30"
+  },
+  ceremony: {
+    title: "Wedding Ceremony & Muhurtham",
+    venue: "Sri Rajarajeshwari Kalyana Mantapa",
+    day: "Monday",
+    date: "30 November 2026",
+    muhurtham: "9:00 AM to 9:45 AM",
+    time: "9:00 AM to 9:45 AM",
+    address: "Vinayaka Nagar, Anekal, Karnataka – 562106",
+    map: "https://share.google/t1sm9W3U2tRc1UwN4",
+    additional: "Muhurtham: 9:00 AM to 9:45 AM. We warmly welcome you to celebrate this auspicious occasion with us."
+  },
+  invitationFrom: "Gopal & Renukamma Family",
+  specialMessage: "With the blessings of our parents and elders, we cordially invite you to join us in celebrating the wedding of Shashikumar G and Thanushree V. Your presence and blessings will make our special day even more memorable.",
+  rsvp: {
+    phone: "8073296129",
+    displayPhone: "+91 80732 96129",
+    callUrl: "tel:+918073296129",
+    whatsappUrl: "https://wa.me/918073296129?text=Congratulations%20Shashikumar%20%26%20Thanushree!%20"
+  },
+  parents: {
+    groom: {
+      title: "Groom's Parents",
+      father: "Gopal",
+      mother: "Renukamma"
+    },
+    bride: {
+      title: "Bride's Parents",
+      father: "Venkataraju",
+      mother: "Kalavathi"
+    }
+  },
+  couple: {
+    groom: {
+      name: "Shashikumar G",
+      relation: "S/O",
+      father: "Gopal",
+      mother: "Renukamma",
+      sentence: "S/O Gopal & Renukamma"
+    },
+    bride: {
+      name: "Thanushree V",
+      relation: "D/O",
+      father: "Venkataraju",
+      mother: "Kalavathi",
+      sentence: "D/O Venkataraju & Kalavathi"
+    }
+  },
+  tagline: "A celebration of love, family & togetherness",
+  quotes: [
+    "Our love began as a story, and today we make a promise to turn it into forever.",
+    "A beautiful marriage is not something you build, it is something you build together."
+  ]
+};
 
 export const PHOTOS = {
   a: "/assets/img2.webp",
