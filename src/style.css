@@ -68,6 +68,8 @@ body.preloader-active #app>*:not(#wedding-preloader) {
   height: 100%;
   overflow: hidden;
   pointer-events: none;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .preloader-bg-img {
@@ -76,16 +78,20 @@ body.preloader-active #app>*:not(#wedding-preloader) {
   object-fit: cover;
   object-position: center 30%;
   animation: preloaderKenBurns 12s ease-out forwards;
-  filter: brightness(1.08) contrast(1.02);
+  filter: brightness(1.08) contrast(1.02) blur(3px);
+  -webkit-filter: brightness(1.08) contrast(1.02) blur(3px);
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  will-change: transform, filter;
 }
 
 @keyframes preloaderKenBurns {
   0% {
-    transform: scale(1);
+    transform: scale(1.04);
   }
 
   100% {
-    transform: scale(1.08);
+    transform: scale(1.10);
   }
 }
 
@@ -96,8 +102,8 @@ body.preloader-active #app>*:not(#wedding-preloader) {
       rgba(0, 0, 0, 0.04) 0%,
       rgba(0, 0, 0, 0.15) 60%,
       rgba(8, 5, 3, 0.32) 100%);
-  backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 /* Stardust Gold Particles */
