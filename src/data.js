@@ -73,5 +73,5 @@ export const W = {
 
 export const PHOTOS = {
   a: "/assets/img2.webp",
-  b: "/assets/preview.webp"
+  b: "/assets/image.png"
 };
